@@ -1,0 +1,20 @@
+COMP 311 - JotBox Practice (40 marks)
+All questions build on the JFrame notepad (frame, menu bar, File/Edit/Tools menus, New/Open/Save, white text area).
+Use your own letters for the variables and keep the style of your labs (short comments, one idea per line).
+
+Q1 [10] Java Swing
+   Build the window: a JFrame called "JotBox" with a BorderLayout, a JMenuBar holding File, Edit and Tools menus,
+   New / Open / Save items in the File menu, and a white JTextArea inside a JScrollPane in the centre.
+   New must clear the text area. (JotBox1.java)
+
+Q2 [10] Reading and Writing to Files
+   Make Open read a chosen file into the text area using a BufferedReader, and Save write the text area to a file
+   using a PrintWriter. Show a friendly message if an IOException happens. (JotBox2.java)
+
+Q3 [10] StringTokenizer
+   Add a Tools menu with Word Count (use countTokens()) and List Words (loop with hasMoreTokens()/nextToken()). (JotBox3.java)
+
+Q4 [10] ArrayList
+   Add: (a) Open reads the lines into an ArrayList<String> first, (b) Edit > Sort Lines sorts that ArrayList,
+   (c) Tools > Find Word uses a StringTokenizer and an ArrayList<Integer> to report every line containing a word,
+   (d) Tools > Recent Files keeps the last 5 file names in an ArrayList. (JotBox4.java)
