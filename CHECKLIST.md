@@ -6,7 +6,7 @@ Tick each box (`- [x]`) as you finish it.
 
 ## 1. JotBox Notepad (Swing + ArrayList + Files + Tokenizer)
 
-- [ ] `JotBox1.java` – Swing window: JFrame, JMenuBar, File / Edit / Tools menus, New / Open / Save, white JTextArea in a JScrollPane
+- [x] `JotBox1.java` – Swing window: JFrame, JMenuBar, File / Edit / Tools menus, New / Open / Save, white JTextArea in a JScrollPane
 - [ ] `JotBox2.java` – Open reads a file (`BufferedReader`), Save writes a file (`PrintWriter`), friendly message on `IOException`
 - [ ] `JotBox3.java` – Tools menu: Word Count (`countTokens()`) and List Words (`hasMoreTokens()` / `nextToken()`)
 - [ ] `JotBox4.java` – Final app: ArrayList of lines, Sort Lines, Find Word, Recent Files (last 5)
@@ -70,23 +70,15 @@ Tick each box (`- [x]`) as you finish it.
 - [ ] Pass by value
 - [ ] Arrays: disadvantages, fixed size, `Arrays.copyOf()`
 
-## 6. Before Pushing to GitHub
 
-- [ ] Each `.java` file is named exactly like its public class
-- [ ] Sample data files included (`hello.txt`, `students.txt`)
-- [ ] Short comments explain each section of the code
-- [ ] No `.class` files committed
-- [ ] README and this checklist added to the repository root
-- [ ] Commit message written (e.g. `Add JotBox notepad stages 1-4`)
-- [ ] Pushed and checked on github.com
 
-## Upload Steps
 
-```
-git init
-git add .
-git commit -m "Add COMP 311 Java work"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
+
+
+
+
+
+
+
+
+
